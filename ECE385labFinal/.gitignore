@@ -1,0 +1,32 @@
+# 编译文件
+db/
+incremental_db/
+simulation/
+greybox_tmp/
+.qsys_edit/
+
+# 日志
+*.rpt
+*.smsg
+*.summary
+*.done
+*.jdi
+*.pin
+*.qws
+*.bak
+*.srf
+*.qdf
+
+# 烧录文件
+*.pof
+*.sof
+
+# Nios II / Eclipse文件
+.metadata/
+
+# 编译生成的中间文件和目标文件
+software/*/obj/
+*.elf
+
+# BSP 文件夹
+software/*_bsp/

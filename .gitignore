@@ -1,0 +1,62 @@
+# Quartus build caches and generated reports
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+.qsys_edit/
+*.rpt
+*.smsg
+*.summary
+*.done
+*.jdi
+*.pin
+*.qws
+*.bak
+*.srf
+*.qdf
+*.log
+*.logdb
+*.sld
+
+# Programming outputs
+*.sof
+*.pof
+*.jic
+
+# Generated simulation outputs (source testbenches remain tracked)
+simulation/
+work/
+*.wlf
+*.vcd
+*.vstf
+transcript
+vsim_stacktrace.vstf
+
+# Nios II / Eclipse build and workspace files
+.metadata/
+obj/
+*_bsp/
+*.elf
+*.o
+*.d
+*.a
+*.map
+*.objdump
+.force_relink
+
+# Local editor, operating system, and agent state
+.vs/
+.vscode/
+.idea/
+.agents/
+.codex/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
